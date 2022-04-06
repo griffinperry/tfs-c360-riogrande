@@ -15,7 +15,7 @@
       </div>
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
+        
           <a
             slot="title"
             href="#"
@@ -26,7 +26,7 @@
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">Home</span>
           </a>
-        </base-dropdown>
+        
         <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
           <a
             slot="title"
@@ -40,7 +40,7 @@
           </a>
           <div class="dropdown-menu-inner">
             <a
-              href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+              href="https://docs.google.com/document/d/1R2Bl1R6-Nh5dfhHHXkyvXId9p1fIShRr/edit?rtpof=true"
               class="media d-flex align-items-center"
             >
               <div
@@ -49,36 +49,58 @@
                 <i class="ni ni-spaceship"></i>
               </div>
               <div class="media-body ml-3">
-                <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                <p class="description d-none d-md-inline-block mb-0">
-                  Get started with Bootstrap, the world's most popular framework
-                  for building responsive sites.
-                </p>
+                <h6 class="heading text-primary mb-md-1">Vision Document</h6>
+                
               </div>
             </a>
             <a
-              href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+              href="https://docs.google.com/document/d/1xh6q_W2Fe-x2d58uOLlfkCds-A_05dHDabrogzqhCno/edit"
+              class="media d-flex align-items-center"
+            >
+              <div
+                class="icon icon-shape bg-gradient-primary rounded-circle text-white"
+              >
+                <i class="ni ni-spaceship"></i>
+              </div>
+              <div class="media-body ml-3">
+                <h6 class="heading text-primary mb-md-1">Use cases</h6>
+                
+              </div>
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1NfRKxBu5m2AmMKwFA3DMCQMrpdus6qrFKYH5EJUZ_fQ/edit"
+              class="media d-flex align-items-center"
+            >
+              <div
+                class="icon icon-shape bg-gradient-primary rounded-circle text-white"
+              >
+                <i class="ni ni-spaceship"></i>
+              </div>
+              <div class="media-body ml-3">
+                <h6 class="heading text-primary mb-md-1">Glossary</h6>
+                
+              </div>
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/1PF1q6c806YQrLOb-OxqVD6zeEEAxFwvY"
               class="media d-flex align-items-center"
             >
               <div
                 class="icon icon-shape bg-gradient-warning rounded-circle text-white"
               >
-                <i class="ni ni-ui-04"></i>
+                <i class="ni ni-spaceship"></i>
               </div>
               <div class="media-body ml-3">
-                <h5 class="heading text-warning mb-md-1">Components</h5>
-                <p class="description d-none d-md-inline-block mb-0">
-                  Learn how to use Argon compiling Scss, change brand colors and
-                  more.
-                </p>
+                <h5 class="heading text-warning mb-md-1">SRS Poster</h5>
+                
               </div>
             </a>
           </div>
         </base-dropdown>
-        <base-dropdown tag="li" class="nav-item">
+        
           <a
             slot="title"
-            href="#"
+            href="https://docs.google.com/spreadsheets/d/1VPMA5P1BvUtkyHk_H1A5XJSryDdRjbpnFEyMLQIvUT8/edit#gid=0"
             class="nav-link"
             data-toggle="dropdown"
             role="button"
@@ -86,13 +108,7 @@
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">WAR</span>
           </a>
-          <router-link to="/landing" class="dropdown-item">Landing</router-link>
-          <router-link to="/profile" class="dropdown-item">Profile</router-link>
-          <router-link to="/login" class="dropdown-item">Login</router-link>
-          <router-link to="/register" class="dropdown-item"
-            >Register</router-link
-          >
-        </base-dropdown>
+          
       </ul>
     </base-nav>
   </header>
