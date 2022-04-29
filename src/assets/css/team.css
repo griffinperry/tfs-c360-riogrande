@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 
 .team-container {
@@ -13,7 +12,14 @@
 
 .headshot {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
+  margin: 20px;
+}
+
+.member-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

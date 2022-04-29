@@ -17,13 +17,13 @@
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-7 text-center pt-lg">
             <img
-              src="img/brand/c360-logo-white.png"
-              style="width: 200px"
+              src="img/brand/transparent-logo-cropped.png"
+              style="width: 400px"
               class="img-fluid"
             />
-            <p class="lead text-white mt-4 mb-5">
-              A 360&deg; view of customers, provided for Toyota Financial
-              Serivces.
+            <p class="lead text-white mt-1 mb-5">
+              A 360&deg; view of customers,<br />
+              provided for Toyota Financial Services.
             </p>
           </div>
         </div>
